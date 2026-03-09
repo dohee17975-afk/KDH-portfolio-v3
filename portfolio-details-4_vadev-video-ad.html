@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>KDH Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./assets/img/favicon-32.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="./assets/img/kdh-rogo.png" alt="">
+        <h1 class="sitename corinthia-regular ">KDH portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html#hero">Home<br></a></li>
+          <li><a href="./index.html#about">About</a></li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="./index.html#portfolio">Portfolio</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0 prata-regular">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <video 
+                controls
+                width="100%"
+                class="img-fluid"
+                loop>
+                <source src="./assets/img/portfolio/video-bodyv-ad.mp4" type="video/mp4">
+                
+              </video>
+            </div>
+
+            <!-- <div class="swiper-slide">
+              <img src="./assets/img/카드뉴스_6.png" alt="">
+            </div> -->
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <!-- <h1>제목</h1> -->
+              <h2 style="font-size: 30px; font-weight: 700;" class="prata-regular">Motion Graphic Film</h2>
+              <p style="font-size: 18px; line-height: 1.8;">
+                VADEV의 컨셉인 고요한 순간 속에 스며드는 오늘의 루틴을 주제로 제작한 모션 그래픽 영상입니다.
+                하루의 흐름 속에서 마주하는 작은 휴식의 순간을 하나의 루틴처럼 담아내고자 했습니다.
+              </p>
+              <p style="font-size: 18px; line-height: 1.8;">
+                몽환적인 색감과 부드러운 움직임, 은은한 빛의 흐름을 활용해 차분하고 편안한 분위기를 표현했으며,
+                일상 속에서 느낄 수 있는 작은 힐링의 순간을 시각적으로 전달하도록 구성했습니다.
+              </p>    
+              <p style="font-size: 18px; line-height: 1.8;">
+                부드러운 흐름과 은은한 조명을 중심으로 전체 영상의 톤을 맞추어
+                사용자가 편안한 감정을 자연스럽게 느낄 수 있도록 디자인했습니다.
+              </p>
+              <!-- <p style="font-size: 18px; line-height: 1.8;">
+                베이지 라인 톤을 활용해 따뜻한 홈카페 분위기를 표현했고,
+                감성적인 일러스트를 배경으로 사용하여
+                친근하고 편안한 시각적 분위기를 목표를 하였습니다.
+              </p> -->
+
+              <!-- <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div> -->
+
+              <!-- <p style="font-size: 18px; line-height: 1.8;">
+                커피를 내리는 장면을 모티프로 한 라인 드로잉은
+                자유로운 분위기와 ‘기술의 따뜻함’을 은유적으로 표현합니다.
+              </p> -->
+              <!-- <p>
+                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+              </p> -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">  
+           <ul>
+              <div class="portfolio-info">
+                <li>
+                  <strong class="tool-title">Used Tools</strong>
+                  <div class="tool-icons" style="margin-top: 10px;">
+                    <!-- <img src="./assets/img/Photoshop_2D.png" alt="Photoshop"> -->
+                    <img src="./assets/img/Illustrator_2D.png" alt="Illustrator">
+                    <!-- <img src="./assets/img/Premiere_2D.png" alt="Premiere"> -->
+                    <img src="./assets/img/Aftereffect_2D.png" alt="After Effects">
+                    <!-- <img src="./assets/img/icons/figma.png" alt="Figma"><br> -->
+                  </div>  
+                  <!-- 아이콘 툴 구성하는 곳 -->
+                  
+                </li>
+              </div>  
+            </ul>
+          </div>  
+        </div>  
+      </div> 
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+         <img src="./assets/img/kdh-rogo-footer.png" alt="Portfolio Logo" class="footer-logo">
+        <p class="prata-regular" style="margin-top: 20px;"><span class="copy">©</span> <span>2026</span> <strong class="px-1 sitename">KDH Portfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <!-- <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div> -->
+      <!-- <div class="credits">
+        All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
+        <!-- <h1 class="corinthia-regular">KDH portfolio</h2>
+      </div> -->
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
